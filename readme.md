@@ -13,14 +13,14 @@
 
 ````bash
 npm install sanp-loggner
-
+````
 ## Usage
 
-#####Basic Usage
+#### Basic Usage
 
 In your Node.js/Express application, you can use sanp-loggner as middleware:
-```js
 
+```js
 const express = require('express');
 const loggger = require('sanp-loggner'); // Import the sanp-loggner package
 
