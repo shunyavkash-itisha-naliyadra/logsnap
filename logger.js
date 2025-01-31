@@ -13,6 +13,7 @@ This logger supports color-coded logs for the console and can log to a file. By 
 Customization options are available to choose what details to log and where to store the logs.
 */
 
+
 const fs = require("fs");
 const path = require("path");
 const loggger = (options = {}) => {
