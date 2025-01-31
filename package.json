@@ -1,0 +1,16 @@
+{
+  "name": "logsnap",
+  "version": "0.0.2",
+  "description": "A simple logger npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger",
+    "nodejs",
+    "logging"
+  ],
+  "author": "Itisha naliyadra",
+  "license": "MIT"
+}
