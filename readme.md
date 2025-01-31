@@ -103,7 +103,7 @@ You can customize what gets logged by passing an options object to loggger. The 
 ```js
 app.use(loggger({
   logToFile: true, // Enable file logging
-  //logFilePath: path.join(__dirname, "server_logs.txt")
+  //logFilePath: path.join(__dirname, "server_logs.txt")  Optional: Specify the log file path
 }));
 ```
 This will log the request details to the file logs.txt in the root of your project.
