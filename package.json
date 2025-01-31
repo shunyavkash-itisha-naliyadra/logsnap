@@ -1,6 +1,6 @@
 {
-  "name": "log-snap",
-  "version": "1.0.2",
+  "name": "sanp-loggner",
+  "version": "1.0.3",
   "description": "A simple logger npm package",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "keywords": [
     "logger",
     "nodejs",
-    "logging"
+    "middleware",
+    "express"
   ],
   "author": "Itisha naliyadra",
   "license": "MIT"

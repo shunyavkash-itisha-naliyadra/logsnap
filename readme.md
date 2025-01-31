@@ -1,6 +1,6 @@
-# log-snap
+# sanp-loggner
 
-`log-snap` is a customizable logging middleware for Node.js applications, particularly designed to log incoming HTTP requests and their responses in an easy-to-read format. It supports logging to both the console and a file, and offers flexibility to choose which details to log, such as HTTP method, status code, request duration, client IP address, and user-agent.
+`sanp-loggner` is a customizable logging middleware for Node.js applications, particularly designed to log incoming HTTP requests and their responses in an easy-to-read format. It supports logging to both the console and a file, and offers flexibility to choose which details to log, such as HTTP method, status code, request duration, client IP address, and user-agent.
 
 ## Features
 
@@ -12,17 +12,17 @@
 ## Installation
 
 ````bash
-npm install log-snap
+npm install sanp-loggner
 
 ## Usage
 
 #####Basic Usage
 
-In your Node.js/Express application, you can use log-snap as middleware:
+In your Node.js/Express application, you can use sanp-loggner as middleware:
 ```js
 
 const express = require('express');
-const loggger = require('log-snap'); // Import the log-snap package
+const loggger = require('sanp-loggner'); // Import the sanp-loggner package
 
 const app = express();
 
